@@ -1,0 +1,9 @@
+body,
+html,
+#root {
+	cursor: default;
+	display: flex;
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
