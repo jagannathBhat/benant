@@ -1,0 +1,6 @@
+Flask
+Keras
+numpy
+scipy
+tensorflow
+Werkzeug
