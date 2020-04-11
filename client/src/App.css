@@ -3,7 +3,10 @@ html,
 #root {
 	cursor: default;
 	display: flex;
+	flex-direction: column;
 	height: 100%;
+	justify-content: center;
 	margin: 0px;
+	text-align: center;
 	width: 100%;
 }
