@@ -1,6 +1,7 @@
 Flask
 Keras
 numpy
+pandas
 scipy
 tensorflow
 Werkzeug
