@@ -118,7 +118,7 @@ history = model.fit_generator(
     callbacks=callbacks
 )
 
-model.save_weights("../server/model.h5")
+model.save("../server/model.h5")
 
 
 test_filenames = os.listdir("./test/")
