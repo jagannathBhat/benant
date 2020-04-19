@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp'}
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='../client/build')
 
 
 def allowed_file(filename):
